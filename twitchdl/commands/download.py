@@ -186,6 +186,11 @@ def _download_clip(slug, args):
 
     target = _clip_target_filename(clip)
 
+	if args.filename
+		target = args.filename
+		return
+	
+
     print_out("Downloading clip...")
     download_file(url, target)
 
